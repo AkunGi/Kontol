@@ -2134,9 +2134,9 @@ agent = random.choice(
 			"Mozilla/5.0 (Linux; Android 7.1.2; Redmi 4X Build/N2G47H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.111 Mobile Safari/537.36",
 			"Mozilla/5.0 (Linux; Android 7.0; Redmi Note 4 Build/NRD90M) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.111 Mobile Safari/537.36"
 			"Mozilla/5.0 (Linux; Android 10; SM-A305F) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/101.0.4951.41 Mobile Safari/537.36"
-            "mozilla-5-0-symbian-3-series60-3-2-nokia-xpressmusic-06-103-profile-midp-2-1-configuration-cldc-1-1-applewebkit-533-4-khtml-like-gecko-nokiabrowser-7-3-0-mobile-safari-533-4-3gpp-gba
 	]
 )
+
 def process_data1():
 	sleep(0.10)
 	
@@ -2797,8 +2797,7 @@ for x in range(1000):
     u4 = f"Mozilla/5.0 (Linux; Android {str(rr(4,12))}; CPH2109 Build/{g2}.{str(rr(111111,210000))}.0{g1}; wv) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/{str(rr(73,150))}.0.{str(rr(5500,5900))}.{str(rr(75,150))} Mobile Safari/537.36"
     u5 = f"Mozilla/5.0 (Linux; Android {str(rr(4,12))}; SM-J120H Build/{g2}.{str(rr(111111,210000))}.0{g1}; wv) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/{str(rr(73,150))}.0.{str(rr(5500,5900))}.{str(rr(75,150))} Mobile Safari/537.36"
     u6 = f"Mozilla/5.0 (Linux; Android {str(rr(4,12))}; SM-M317F Build/{g2}.{str(rr(111111,210000))}.0{g1}; wv) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/{str(rr(73,150))}.0.{str(rr(5500,5900))}.{str(rr(75,150))} Mobile Safari/537.36"
-    u7 = f"mozilla-5-0-symbian-3-series60-3-2-nokia-xpressmusic-06-103-profile-midp-2-1-configuration-cldc-1-1-applewebkit-533-4-khtml-like-gecko-nokiabrowser-7-3-0-mobile-safari-533-4-3gpp-gba
-    Ua = random.choice([u1, u2, u3, u4, u5, u6, u7])
+    Ua = random.choice([u1, u2, u3, u4, u5, u6])
     UserBrayCrack.append(Ua)
 
 #------------------[ URL-PROXY ]-------------------#
